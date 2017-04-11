@@ -1,74 +1,87 @@
-body{
-  border-top: 10px solid cyan;
-  background-color: white;
-  margin: 0;
-  padding: 1%;
+body {
+    border-top: 10px solid cyan;
+    background-color: white;
+    margin: 0;
+    padding: 1%;
 }
-.card{
-width: 98%;
-border: 2px solid gray;
-box-shadow: 1px 1px 3px #888;
-border-top: 10px solid cyan;
-min-height: 350px;
-padding-: 10px;
-margin: 5px;
-}
-.card p{
-  margin: 5px;
-  font-family: monospace;
-  line-height: 1.4em;
-  font-size: 1.2em;
-  color: black;
-}
-#mainbox{
-  box-sizing: border-box;
-  justify-content: center;
-  display: flex;
-flex-wrap: wrap;
-}
-.posth2{
-  height: auto;
-  max-width: 60%;
-  display: block;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-  font-size: 5vmin;
-  font-family: sans-serif;
-  border: 1px solid cyan;
-  padding: 5px;
-}
-ul {
-  list-style-type: none;
-}
-.fbFeed{
-  padding: 5px;
-}
-.avatar{
-  float: left;
-  padding-right: 15px;
-}
-fbFeed .h3{
-  float: left;
-}
-.postPic{
-  padding: 5px;
-}
-.message{
-  padding: 5px;
-}
-.well{
-  background-color: white;
-}
-#myDpx{
-  border-radius: 100px;
-}
-.myFbInfo {
-  padding: 5px;
-}
-.fbUserInfo{
-  padding: 5px;
-  font-size: 1em;
-  font-family: serif;
 
+.card {
+    width: 98%;
+    border: 2px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid cyan;
+    min-height: 350px;
+    padding-: 10px;
+    margin: 5px;
+}
+
+.card p {
+    margin: 5px;
+    font-family: monospace;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    color: black;
+}
+
+#mainbox {
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posth2 {
+    height: auto;
+    max-width: 60%;
+    display: block;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 5vmin;
+    font-family: sans-serif;
+    border: 1px solid cyan;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fbFeed {
+    padding: 5px;
+}
+
+.avatar {
+    float: left;
+    padding-right: 15px;
+}
+
+fbFeed .h3 {
+    float: left;
+}
+
+.postPic {
+    padding: 5px;
+}
+
+.message {
+    padding: 5px;
+}
+
+.well {
+    background-color: white;
+}
+
+#myDpx {
+    border-radius: 100px;
+}
+
+.myFbInfo {
+    padding: 5px;
+}
+
+.fbUserInfo {
+    padding: 5px;
+    font-size: 1em;
+    font-family: serif;
 }
